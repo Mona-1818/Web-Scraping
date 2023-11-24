@@ -56,6 +56,6 @@ for k in range(2, int(x)+1):
     driver.get("https://rategain.com/blog/page/{}/".format(k))
     gather_info()
 
-workbook.save('E:\working\webscrapping.xlsx')
+workbook.save('<{path}>\webscrapping.xlsx')
 driver.quit()
  
