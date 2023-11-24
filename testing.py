@@ -1,5 +1,4 @@
 import os
-# import pandas as pd
 import openpyxl
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -58,18 +57,5 @@ for k in range(2, int(x)+1):
     gather_info()
 
 workbook.save('E:\working\webscrapping.xlsx')
-
-
-# data = {'Blog title': bt,
-#         'Blog date': bd,
-#         'Blog image URL': biu,
-#         'Blog likes count': blc,
-#         }
-# df = pd.DataFrame(data)
-# # print(df)
-# # # Save the dataframe to a CSV file
-# df.to_csv('E:/data.csv', index=True)
-
-# # time.sleep(5)
 driver.quit()
  
